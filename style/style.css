@@ -4,6 +4,7 @@
 /* common styles */
 body{
   font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
 main{
   background-color: #FFFFFF;

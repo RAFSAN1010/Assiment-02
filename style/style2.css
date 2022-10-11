@@ -130,4 +130,45 @@ main{
   font-weight: 400;
 }
 
-/* Media styles */
+/* footer styles */
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFFFF;
+  background-color: #161616;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+footer h2{
+  font-size: 40px;
+  font-weight: 600;
+}
+.policy a{
+  text-decoration: none;
+  color: #B9B9B9;
+  font-size: 16px;
+  margin-right: 50px;
+}
+
+/* Responsive Code */
+
+/* Mobile Device */
+@media screen and (max-width:480px) {
+  .blogs{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*  Tablet Device */
+@media screen and (min-width:481px) and (max-width:991px) {
+  
+}
+
+/* Big Device */
+
+@media screen and (min-width:992px) {
+  
+}
